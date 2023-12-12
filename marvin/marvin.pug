@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/main.css")
+        title Document
+    body 
+    
+        - var navItems = ["Ambient,", "Holiday,","Electronic,","Lounge,","Blues,","Acoustic,","Children,","Fantasy,","Funk,","Lounge,","Indie,","Classical,","Singer-Songwriter,","Pop,","Classical,","Reggae,","Country,","Cinematic,","Reggae,","Holiday,","Singer-Songwriter,","Cinematic,","Folk,","Retro,","Jazz,","Funk,","Fantasy,","World,","Holiday,","Classical,","Rock,","Hip Hop," ]
+        main 
+            .container  
+                div.left_container
+                    section.left_spotify 
+                        .left_ol 
+                            ol
+                                li
+                                    img(src="/imges/Vector.png" alt="img")
+                                    a(href="#") Home 
+
+                                li 
+                                    img(src="/imges/Vector2.png" alt="img")
+                                    a(href="#") Search 
+
+                                li 
+                                    img(src="/imges/Vector3.png" alt="img")
+                                    a(href="#") Your Library
+
+                                ol.two 
+                                    li 
+                                        img(src="/imges/Add playlist.png" alt="img")
+                                        a(href="#") Create Playlist 
+                                    li 
+                                        img(src="/imges/Liked songs.png" alt="img")
+                                        a(href="#") Liked Songs  
+
+
+                                    hr
+
+
+
+
+                                .nav_left
+                                    ol 
+                                        each item in navItems
+                                            li 
+                                           
+                                                a(href="#")=item

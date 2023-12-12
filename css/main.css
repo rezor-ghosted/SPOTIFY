@@ -1,0 +1,236 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+}
+
+.control {
+  background-color: #191414;
+  position: relative;
+}
+.control ol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.control .one {
+  margin-bottom: 20px;
+  position: absolute;
+  left: 600px;
+  top: 10px;
+}
+
+.left_container {
+  background-color: #000;
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 500px;
+}
+.left_container .left_ol {
+  padding-right: 10px;
+}
+.left_container .left_ol li {
+  margin: 10px;
+  display: flex;
+  gap: 5px;
+}
+.left_container .left_ol li a {
+  padding: 0px 8px;
+  color: #B2B2B2;
+  font-size: 15px;
+}
+.left_container .left_ol li:hover {
+  background-color: #535353;
+}
+.left_container .left_ol .two {
+  padding-top: 10px;
+}
+
+.midell_spotify {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.midell_spotify input {
+  margin-left: 10px;
+  border-radius: 20px;
+  border-color: white;
+  background-color: white;
+}
+.midell_spotify ol {
+  display: flex;
+  gap: 10px;
+  padding-left: 28px;
+}
+.midell_spotify .logo {
+  display: flex;
+  margin-left: 600px;
+}
+
+.midell {
+  background-color: #191414;
+}
+
+.recent {
+  padding: 0px 10px;
+}
+.recent .avter {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.recent .avter h1 {
+  color: white;
+}
+.recent .avter span {
+  color: white;
+  margin-left: 700px;
+  position: absolute;
+  left: 380px;
+  font-size: 13px;
+}
+.recent .recent_nav ol {
+  display: flex;
+  align-items: center;
+}
+.recent .recent_nav ol li {
+  margin: 0 auto;
+}
+
+.genres h2 {
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+.genres .top_genres {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.genres .top_genres .box_one {
+  background-color: #E8115B;
+  width: 292px;
+  height: 132px;
+  position: relative;
+  border-radius: 2px;
+}
+.genres .top_genres .box_one p {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  position: relative;
+}
+.genres .top_genres .box_one p img {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+.genres .top_genres .box_two {
+  background-color: #55A891;
+  width: 292px;
+  height: 132px;
+  border-radius: 2px;
+}
+.genres .top_genres .box_two p {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  position: relative;
+}
+.genres .top_genres .box_two p img {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+.genres .top_genres .box_th {
+  background-color: #F037A5;
+  width: 292px;
+  height: 132px;
+  border-radius: 2px;
+}
+.genres .top_genres .box_th p {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  position: relative;
+}
+.genres .top_genres .box_th p img {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+
+.allbom h2 {
+  color: white;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+.allbom ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.right {
+  background-color: #000;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 10px;
+  width: 520px;
+}
+.right .avtor {
+  color: white;
+  font-weight: 700;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+.right a {
+  display: flex;
+  align-items: center;
+  color: #b2b2b2;
+}
+.right a .loop {
+  margin: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.right a .play {
+  padding-left: 10px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 55px;
+}
+.right ol p {
+  font-size: 10px;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
